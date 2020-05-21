@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#headerIzquierda {
+    display: flex;
+    justify-content: flex-start;
+}
+#headerIzquierda > div {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(59, 58, 58);
+    font-size: small;
+    padding: 1rem;
+}
+#headerDerecha {
+    display: flex;
+    justify-content: center;   
+    border:1 px solid red; 
+}
+#headerDerecha > div {
+    padding: 1rem;
+    color: rgb(59, 58, 58);
+    font-size: small;
+    padding: 1rem;
+}
