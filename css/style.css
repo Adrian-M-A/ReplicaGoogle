@@ -4,10 +4,12 @@ header {
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #headerIzquierda {
     display: flex;
     justify-content: flex-start;
 }
+
 #headerIzquierda > div {
     display: flex;
     justify-content: flex-start;
@@ -16,11 +18,13 @@ header {
     padding-top: 1rem;
     padding-left: 1rem;
 }
+
 #headerDerecha {
     display: flex;
     justify-content: center;   
     border:1 px solid red; 
 }
+
 #headerDerecha > div {
     padding: 1rem;
     color: rgb(59, 58, 58);
@@ -29,18 +33,98 @@ header {
 }
 
 section {
-    height: 50rem;
-    width: 75rem;
-    border: 1px solid red;
+    height:800px;
 }
-img {
-    display:flex;
-    justify-content: center;
 
-}
 section > div {
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
+
+.logotipo {
+    height: 15rem;
+    display: flex;
+    align-items: end;
+}
+
+.input {
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+border-radius: 3rem;
+margin-top: 1.2rem;
+width: 30rem;
+height: 2.5rem;
+border: 1px solid rgb(216, 215, 215);
+}
+
+input {
+    height: 2.5rem;
+    width: 20rem;
+    border: none;
+    order: 0;
+    margin-left: 1rem;
+}
+
+.input:hover{
+    box-shadow: rgb(216, 215, 215) 0px 0.5px 2px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+#lupa {
+    margin-top: 0.8rem;
+    margin-left: -7rem;
+    height: 1rem;    
+    order: 1;
+}
+
+.botones {
+    margin-top: 2rem;
+}
+
+button {
+    margin-right: 0.7rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.4rem;
+    height: 2.5rem;
+    width: 9.5rem;
+    color: rgb(97, 96, 96);
+    border:none;
+    font-size: 14px;
+}
+
+button:hover {
+    border: 1px solid rgb(168, 167, 167);
+    color: black;
+}
+
+button:focus {
+    border: 1px solid rgb(8, 10, 134);
+    color: black;
+    outline: 0px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    color: rgb(25, 0, 168);
+}
+
+a:hover {
+    text-decoration: underline  ;
+}
+
+#ofrecido {
+    margin-top: 1.8rem;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #footer1 {
     display: flex;
     justify-content: start;
@@ -52,18 +136,17 @@ section > div {
     padding-bottom: 0.9rem;
     background-color: rgb(245, 243, 243);
 }
+
 #footer2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: rgb(102, 101, 101);
-    font-size: normal;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(245, 243, 243);
     border-top: 1px solid rgb(226, 223, 223);
-    font-size: small;
-
 }
+
 #footer2 > div {
     display: flex;
     flex-direction: row;
@@ -73,13 +156,14 @@ section > div {
 
 #izquierda > div{
     padding-right: 1.5rem;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #footer2 > div:nth-child(2) {
     padding-right: 1.5rem;
     font-size: 14px;
 }
+
 #derecha > div {
     padding-left: 1.5rem;
 }
